@@ -1,0 +1,129 @@
+*{
+text-decoration: none; 
+   
+}
+body{
+    background-image: url(toby-hall-XOUlTDMImeI-unsplash.jpg);
+    background-attachment: fixed;
+    z-index: -2;
+    background-size: cover;
+    min-height: 300hv;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    padding: 0%;
+    margin: 0%;
+}
+
+#navbar
+{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 50px;
+      font-weight: 2;
+      height: 70px;
+      background-color: rgb(0, 0, 0);
+      position:fixed; 
+      width: 100%;
+      color:white;
+      margin-top: 0px;
+}
+.Backbutton{
+    color: white;
+    text-decoration: none;
+    font-size:xx-large;
+    padding-right: 41%;
+}
+#LOGO{
+    color: white;
+    text-decoration: none;
+    padding-left: 40%;
+}
+#start{
+    text-decoration: none;
+    position:fixed;
+    margin-top: 25px;
+    top:70px;
+    align-content: center;
+    left:50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: larger;
+    opacity: 0.9;
+    font-weight: bold;
+   color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+}
+
+.linkbuttons
+{
+   
+   width: 300px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+
+}
+.container
+{       
+       padding-top: 100px; 
+       margin-left: 100px;
+       display: flex;
+       flex-direction: column;
+       
+}
+
+#menucards
+{
+    padding-top: 14%;
+    padding-left: 35%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.buttons{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 15px; 
+    font-size: xx-large;
+    text-decoration: none;
+    height: 40px;
+    margin-top: 10px;
+}
+.buttons:hover{
+    transition: all 0.3s ease;
+    height: 40px;
+    transform: scale(1.04); /* Default size */
+}
+
+.hover{
+    transition: all 0.7s ease;
+    width: 350px;
+    height: 40px;
+    padding-bottom: 10px;
+    transform: scale(1); /* Default size */
+}
+.hover:hover{
+    transform : scale(1.1); /* Pop-up effect */
+
+
+}
+#inputplaceholder{
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+}

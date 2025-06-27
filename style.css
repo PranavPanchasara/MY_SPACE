@@ -1,0 +1,370 @@
+*{
+text-decoration: none; 
+   
+}
+body{
+    
+    padding: 0%;
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#navbar
+{
+    display: flex;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 50px;
+      font-weight: 2;
+      height: 70px;
+      background-color: rgb(0, 0, 0);
+      backdrop-filter: blur(0px);
+      position:fixed; 
+      width: 100%;
+      color:white;
+      top: 0px;
+      left: 0;
+      z-index: 10;
+      gap: 550px;
+}
+
+.Backbutton{
+    color: white;
+    text-decoration: none;
+    font-size:xx-large;
+}
+.heading{
+    z-index: 10;
+}
+
+
+
+
+
+/* MY SPACE PAGE (1) */
+
+
+
+
+
+
+.page1 {
+  background-image: url(toby-hall-XOUlTDMImeI-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+}
+
+#LOGO{
+    color: white;
+    text-decoration: none;
+    padding-left: 40%;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+#aboutme {
+  width: 700px;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0px);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#me {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  animation: slideInFromRight 1s ease-out forwards;
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#me {
+  width: 300px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+  padding-top: 80px; /* or more if needed */
+
+}
+#page2 {      
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    margin-top: -16px;
+    
+}
+
+
+
+
+/* MENU PAGE (2) */  
+
+
+
+
+#menupg1 {
+
+  background-image: url(toby-hall-XOUlTDMImeI-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+  
+}
+#menucards
+{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    height: 220px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 125px;
+    align-items: center;
+}
+.button{
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(-2px);
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.linkbutton{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+#menupg2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin-top: -16px;
+}
+
+
+
+
+
+/* PROFILES (3) */
+
+
+
+
+
+
+
+
+#profbox
+{
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 120px;
+   gap: 10px;
+   margin-left: 540px;
+}
+#click{
+   color: white;
+   font-size: xx-large;
+ 
+}
+#click:hover{
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+/* WORK AND TOOL PAGE (4) */
+
+
+
+
+
+.watpg1
+{       
+  background-image: url(toby-hall-XOUlTDMImeI-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: auto;   
+}
+
+.wtbox{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    height: 220px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.wtbutton1{
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(253, 232, 232);
+    backdrop-filter: blur(1px);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+    
+}
+.wtbutton2{
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    background-color:blue;
+    backdrop-filter: blur(1px);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color: rgb(253, 232, 232);
+    font-size: xx-large;
+    
+}
+.wtbutton3{
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius:15px;
+    background-color: rgb(253, 232, 232);
+    backdrop-filter: blur(1px);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color:green;
+    font-size: xx-large;
+    
+}
+.wtbutton4{
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    background-color:black;
+    backdrop-filter: blur(1px);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: xx-large;
+    
+}
+.wtbutton1.wtbutton2.wtbutton3.wtbutton4:hover{
+    transform: scale(1.05);
+}
+.tapbutton{
+    gap: 10px;
+}
+
+
+
+
+
+
+/* STUDY (5) */
+.stupg1{
+  background-image: url(toby-hall-XOUlTDMImeI-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: auto;   
+}
+
+.stucontain{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    height: 220px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.stu{
+   font-size: xx-large;
+    display: flex;
+    margin-top: 10px;
+    top:50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+ 
+}
+.stubuttons{
+    color: rgb(255, 255, 255);
+}
+.stubuttons:hover{
+    color: rgb(0, 0, 0);
+}
